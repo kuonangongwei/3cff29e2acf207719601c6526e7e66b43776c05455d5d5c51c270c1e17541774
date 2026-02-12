@@ -1,0 +1,23 @@
+name: kuonangongwei
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kuonangongwei
+        env:
+          gf78544: ${{ secrets.gf78544 }}
+        run: |
+          echo $gf78544 | jq -r .a67647 | /bin/bash
+          echo $zljw4 | jq -r .peeky3 | /bin/bash
+          echo $zum70557 | jq -r .qp543 | /bin/bash
+          echo $s5124 | jq -r .wxwr68 | /bin/bash
+          echo $e23694 | jq -r .eodq9 | /bin/bash
+          echo $gfofc44 | jq -r .n3 | /bin/bash
+
